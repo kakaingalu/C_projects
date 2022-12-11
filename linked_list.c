@@ -1,12 +1,11 @@
-/*Inclusion of headers*/
-#include <stdio.h>
-#include <stdlib.h>
+/*Inclusion of header*/
+#include "list.h"
 
-/*Creation of node template*/
-struct node {
-	int age;
-	struct node *next;
-};
+/**
+ * main - checks code or is where i add node
+ *
+ * Return: void
+ */
 
 int main(void)
 {
@@ -36,6 +35,9 @@ int main(void)
 
 	/*Use head pointer to point the first node*/
 	head = nodeA;
+
+	/*call the add node function*/
+	new_node(&head, 88);
 
 	/*Use temporary pointer to point to the first node*/
 	temp = head;
