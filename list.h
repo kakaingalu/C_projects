@@ -17,4 +17,5 @@ struct node
 	struct node *next;
 };
 void new_node(struct node **head, int value);
+void new_node_end(struct node **head, int value);
 #endif/*_LIST_H_*/

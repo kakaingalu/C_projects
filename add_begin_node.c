@@ -37,7 +37,7 @@ void new_node(struct node **head, int value)
 	/*the head points to the new node*/
 	*head = nodeAA;
 
-	printf("Successfully added new node\n");
+	printf("Successfully added new node at beginning\n");
 }
 
 

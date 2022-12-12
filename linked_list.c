@@ -38,6 +38,7 @@ int main(void)
 
 	/*call the add node function*/
 	new_node(&head, 88);
+	new_node_end(&head, 78);
 
 	/*Use temporary pointer to point to the first node*/
 	temp = head;
@@ -48,6 +49,7 @@ int main(void)
 		printf("%d ---> ", temp->age);
 		temp = temp->next;
 	}
-	printf("%d\n", nodeC->age);
+	printf("%d\n", temp->age);
+	/*printf("%d\n", nodeC->age);*/
 	return (0);
 }
