@@ -1,6 +1,9 @@
 import math
+"""This is a commisssion calculator module"""
+
 class Commission1:
-    name = input("What's your name as per your ID?")
+    """The class of the module"""
+    name = input("What's your name as per your ID? ")
     sales = int(input("Enter your sales:"))
     commission_per_sale = 30
     salary_per_sale = 1000
